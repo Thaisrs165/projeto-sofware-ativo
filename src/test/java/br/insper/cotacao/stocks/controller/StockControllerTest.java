@@ -47,3 +47,4 @@ public class StockControllerTest {
                 .andExpect(MockMvcResultMatchers.jsonPath("$[0].ticker").value("PETR"));
     }
 }
+
