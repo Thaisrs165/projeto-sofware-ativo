@@ -54,3 +54,4 @@ jobs:
             docker rm --force stocks
             docker run -d -p 8080:8080 --name stocks
             thaisrs3/stocks-ci:${{ github.sha }} 
+
